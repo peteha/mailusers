@@ -2,5 +2,5 @@
 filename='users.txt'
 while read line; do
 # reading each line
-./createuser.sh $line Password~1234~ 
+./create_mail_user_SQL.sh $line Password~1234~ 
 done < $filename
